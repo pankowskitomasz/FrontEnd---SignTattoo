@@ -1,0 +1,110 @@
+@include aoa-bg-series($class-col-array,$image-col-array,0,"center center","cover","fixed");
+
+%input-base {
+    &:focus{
+        box-shadow: none !important;
+    }
+    &::-webkit-input-placeholder {
+        color: #fff !important;
+        opacity: 0.9 !important;
+    }
+    &::placeholder {
+        color: #fff !important;
+        opacity: 0.7 !important;
+    }
+    &:-moz-placeholder {
+        color: #fff !important;
+        opacity: 0.7 !important;
+    }
+    &::-moz-placeholder {
+        color: #fff !important;
+        opacity: 0.7 !important;
+    }
+    &:-ms-placeholder {
+        color: #fff !important;
+        opacity: 0.7 !important;
+    }
+    background-color: transparent !important;
+    border: none!important;
+    border-radius: 0;
+    color: #fff !important;
+    padding: 8px;
+    text-shadow: none;
+}
+
+*{
+    text-shadow: $text-shadow;
+}
+
+.bg{
+    &-black{
+        background-color: $bg-black-color;
+    }
+    &-gradient-black{
+        background-image: linear-gradient(#222 0,$bg-black-color 50%,#222 90%);
+    }
+}
+
+.icon-item{
+    &:hover{
+        color: darken($icon-color,35%);
+    }
+    color: $icon-color;
+    cursor: pointer;
+    font-size: $icon-size;
+    text-decoration: none !important;
+}
+
+.image-link{
+    img{
+        &:hover{
+            background-image: $image-link-img-bg-act;
+        }
+        background-image: $image-link-img-bg;
+        border-radius: $image-link-img-w/2;
+        height: auto;
+        top: $image-link-img-top;
+        width: $image-link-img-w;
+    }
+    width: $image-link-width;
+}
+
+.navbar-brand{
+    img{
+        height: auto;
+        width: $navbar-brand-w;
+    }
+}
+
+.opacity{
+    &-08{
+        opacity: 0.85;
+    }
+}
+
+.section-title{
+    font-family: $font-f1;
+    opacity: 0.9s;
+}
+
+.vh-70{
+    height: 70vh !important;
+}
+
+footer{
+    @include set-background($footer-bg,0,"center center","cover","fixed");
+}
+
+
+form {
+    input:not([type="submit"]):not([type="reset"]){
+        @extend %input-base;
+        border-bottom: 1px solid #fff !important;        
+    }
+    textarea{
+        @extend %input-base;
+        border: 1px solid #fff !important;
+        border-radius: 0 !important;
+        resize: none;
+    }
+}

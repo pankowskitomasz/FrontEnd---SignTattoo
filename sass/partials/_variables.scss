@@ -1,0 +1,46 @@
+$index-bg-imgs: 
+    "../img/idx-s1-bg.jpg",
+    "../img/idx-s2-bg.jpg",
+    "../img/idx-s3-bg.jpg",
+    "../img/idx-s4-bg.jpg",
+    "../img/idx-s5-bg.jpg",
+    "../img/idx-s6-bg.jpg";
+$kunstler-bg-imgs:
+    "../img/kunstler-s1-bg.jpg",
+    "../img/kunstler-s2-bg.jpg",
+    "../img/kunstler-s3-bg.jpg",
+    "../img/kunstler-s4-bg.jpg",
+    "../img/kunstler-s5-bg.jpg";
+$studio-bg-imgs:
+    "../img/studio-s1-bg.jpg",
+    "../img/studio-s2-bg.jpg",
+    "../img/studio-s3-bg.jpg",
+    "../img/studio-s4-bg.jpg";
+$style-bg-imgs:
+    "../img/style-s1-bg.jpg",
+    "../img/style-s2-bg.jpg",
+    "../img/style-s3-bg.jpg",
+    "../img/style-s4-bg.jpg",
+    "../img/style-s5-bg.jpg";
+$class-col-array:
+    "index-s",
+    "kunstler-s",
+    "studio-s",
+    "style-s";
+$image-col-array:
+    $index-bg-imgs,
+    $kunstler-bg-imgs,
+    $studio-bg-imgs,
+    $style-bg-imgs;
+$bg-black-color: #000;
+$font-f1: 'Frijole';
+$footer-bg: "../img/footer-bg.jpg";
+$icon-color: #fff;
+$icon-size: 30px;
+$image-link-width: 120px;
+$image-link-img-bg: radial-gradient(#000 0,#333 10%,#000 80%);
+$image-link-img-bg-act: radial-gradient(#666 0,#000 10%,#666 80%);
+$image-link-img-top: -15px;
+$image-link-img-w: $image-link-width - 10px;
+$navbar-brand-w: 35px;
+$text-shadow: 1px 1px 3px #000;
