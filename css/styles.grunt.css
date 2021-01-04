@@ -259,6 +259,15 @@ section {
   background-size: cover;
 }
 
+/* line 39, ../sass/partials/_backgrounds.scss */
+.privacy-s-1 {
+  background-attachment: fixed;
+  background-image: url(../img/studio-s3-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 3, ../sass/partials/_modules.scss */
 form input:not([type="submit"]):not([type="reset"]), form textarea {
   background-color: transparent !important;
@@ -341,29 +350,38 @@ form input:-ms-placeholder:not([type="submit"]):not([type="reset"]), form textar
   background-image: radial-gradient(#666666 0%, #000000 10%, #666666 80%);
 }
 
-/* line 73, ../sass/partials/_modules.scss */
+/* line 72, ../sass/partials/_modules.scss */
+.minh-50vh {
+  min-height: 50vh;
+}
+/* line 75, ../sass/partials/_modules.scss */
+.minh-100vh {
+  min-height: 100vh;
+}
+
+/* line 80, ../sass/partials/_modules.scss */
 .navbar-brand img {
   height: auto;
   width: 35px;
 }
 
-/* line 80, ../sass/partials/_modules.scss */
+/* line 87, ../sass/partials/_modules.scss */
 .opacity-08 {
   opacity: 0.85;
 }
 
-/* line 85, ../sass/partials/_modules.scss */
+/* line 92, ../sass/partials/_modules.scss */
 .section-title {
   font-family: "Frijole";
   opacity: 0.9s;
 }
 
-/* line 90, ../sass/partials/_modules.scss */
+/* line 97, ../sass/partials/_modules.scss */
 .vh-70 {
   height: 70vh !important;
 }
 
-/* line 94, ../sass/partials/_modules.scss */
+/* line 101, ../sass/partials/_modules.scss */
 footer {
   background-attachment: fixed;
   background-image: url(../img/footer-bg.jpg);
@@ -372,11 +390,11 @@ footer {
   background-size: cover;
 }
 
-/* line 100, ../sass/partials/_modules.scss */
+/* line 107, ../sass/partials/_modules.scss */
 form input:not([type="submit"]):not([type="reset"]) {
   border-bottom: 1px solid #fff !important;
 }
-/* line 104, ../sass/partials/_modules.scss */
+/* line 111, ../sass/partials/_modules.scss */
 form textarea {
   border: 1px solid #fff !important;
   border-radius: 0 !important;

@@ -29,7 +29,7 @@
                     <a href="index.html" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="stil.html" class="nav-link px-3">STIL</a>
+                    <a href="stil.html" class="nav-link">STIL</a>
                 </li>
                 <li class="nav-item">
                     <a href="tatowieren.html" class="nav-link">TÄTOWIEREN</a>
@@ -78,8 +78,10 @@
             </ul>
         </div>
         <div class="row">
-            <div class="mx-auto text-center">
-                <h3 class="section-title text-uppercase text-center">TÄTOWIEREN DÜSSELDORF</h3>
+            <small class="mx-auto text-center">
+                <p class="lead section-title text-uppercase text-center">
+                    TÄTOWIEREN DÜSSELDORF
+                </p>
                 <ul class="list-unstyled">
                     <li>Sign - Tattoo Düsseldorf</li>
                     <li>Johann Vaas</li>
@@ -88,10 +90,15 @@
                     <li>Telefon: +49 (0) 123 1234567</li>
                     <li>E-Mail: info&#64;mail.com</li>
                 </ul>
-            </div>
+            </small>
         </div>
-        <div class="row border-top mx-3">
-            <p class="mx-auto pt-2">Copyright &copy; 2019</p>
+        <div class="row border-top border-secondary mx-3">
+            <small class="mx-auto pt-2 text-center">
+                Copyright &copy; 2019-2021 Tomasz Pankowski 
+                <a href="privacy.html" class="text-light">
+                    Privacy policy
+                </a>
+            </small>
         </div>
     </footer>
     <script type="text/javascript" src="js/main.min.js"></script>

@@ -68,7 +68,14 @@
     }
     width: $image-link-width;
 }
-
+.minh{
+    &-50vh{
+        min-height: 50vh;
+    }
+    &-100vh{
+        min-height: 100vh;
+    }
+}
 .navbar-brand{
     img{
         height: auto;

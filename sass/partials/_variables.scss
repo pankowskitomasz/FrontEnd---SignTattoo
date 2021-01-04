@@ -11,6 +11,8 @@ $kunstler-bg-imgs:
     "../img/kunstler-s3-bg.jpg",
     "../img/kunstler-s4-bg.jpg",
     "../img/kunstler-s5-bg.jpg";
+$privacy-bg-imgs:
+    "../img/studio-s3-bg.jpg";
 $studio-bg-imgs:
     "../img/studio-s1-bg.jpg",
     "../img/studio-s2-bg.jpg",
@@ -26,12 +28,14 @@ $class-col-array:
     "index-s",
     "kunstler-s",
     "studio-s",
-    "style-s";
+    "style-s",
+    "privacy-s";
 $image-col-array:
     $index-bg-imgs,
     $kunstler-bg-imgs,
     $studio-bg-imgs,
-    $style-bg-imgs;
+    $style-bg-imgs,
+    $privacy-bg-imgs;
 $bg-black-color: #000;
 $font-f1: 'Frijole';
 $footer-bg: "../img/footer-bg.jpg";
