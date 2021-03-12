@@ -106,19 +106,19 @@
             </ul>
         </div>
         <div class="row">
-            <small class="mx-auto text-center">
+            <div class="mx-auto text-center">
                 <p class="lead section-title text-uppercase text-center">
-                    TÄTOWIEREN DÜSSELDORF
+                    <small>TÄTOWIEREN DÜSSELDORF</small>
                 </p>
                 <ul class="list-unstyled">
-                    <li>Sign - Tattoo Düsseldorf</li>
-                    <li>Johann Vaas</li>
-                    <li>Köln Straße 123</li>
-                    <li>12345 Düsseldorf</li>
-                    <li>Telefon: +49 (0) 123 1234567</li>
-                    <li>E-Mail: info&#64;mail.com</li>
+                    <li><small>Sign - Tattoo Düsseldorf</small></li>
+                    <li><small>Johann Vaas</small></li>
+                    <li><small>Köln Straße 123</small></li>
+                    <li><small>12345 Düsseldorf</small></li>
+                    <li><small>Telefon: +49 (0) 123 1234567</small></li>
+                    <li><small>E-Mail: info&#64;mail.com</small></li>
                 </ul>
-            </small>
+            </div>
         </div>
         <div class="row border-top border-secondary mx-3">
             <small class="mx-auto pt-2 text-center">
@@ -129,6 +129,6 @@
             </small>
         </div>
     </footer>
-    <script type="text/javascript" src="js/main.min.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 </html>
