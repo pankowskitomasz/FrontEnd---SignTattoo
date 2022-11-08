@@ -9,6 +9,11 @@
     <meta name="description" content="Tätowi̱e̱ren und düsseldorf? - Sign tatoo naturlich! Jedes Tattoo ist für mich ein einzigartiges Kunstwerk, welches nur in einem 
         ausführlichen Beratungsgespräch individuell für dich gestaltet werden kann.  
         Individualität, das ist es was ich mir zum größten Ziel gemacht habe">
+    <meta property="og:title" content="Sign Tattoo">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:locale" content="de_DE">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/styles.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
